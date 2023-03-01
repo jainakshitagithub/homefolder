@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    line-height: 1.5;
+
+}
+
+/* Main Image session */
+
+.main_img{
+    position: relative;
+    background-image: url("Images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120vh;
+    background-position: center;
+
+}
+
+/* Main text css  */
+
+.textContainer{
+    position: absolute;
+    left:20%;
+    top:5%
+}
+
+.textContainer p{
+font-size:50px;
+text-transform: capitalize;
+line-height: 1;
+}
+
+.textContainer span{
+    font-size: 0.5em;
+}
+
+.textContainer h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+
+/* session one starting */
+
+.blackBox{
+    background-color: #161619;
+   height: 40vh;
+   padding-top:20px;
+}
+
+.blackBox p{
+    font-size: 4em;
+}
+
+.blackBox p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.big_text{
+    font-size: 130px;
+}
+
+/* Work Container */
+
+.work_container{
+display:grid;
+grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+text-align: center;
+margin:0 auto;
+}
+
+.card{
+    width:300px;
+box-shadow: 4px 3px 2px rgba(1 , 1, 1 , 0.1 );
+margin: 50px;
+margin-left:30px;
+
+}
+
+.imageContainer img{
+    width: 200px;
+}
+
+.content p{
+    padding:10px 20px;
+}
+
+.content h3{
+    margin:10px;
+}
+
+
+
+/* Session two */
+
+.session_two{
+    display: flex;
+    text-align: justify;
+}
+
+.contact{
+    background-color: #515603;
+}
+
+.about{
+    background-color: #722300;
+}
+
+.contact , .about{
+    color:white;
+    padding:50px;
+}
+.contact h2 , .about h2{
+    font-size:50px;
+    font-weight: 400;
+}
+.contact p , .about p{
+    padding-top:10px;
+    letter-spacing: 1.2px;
+}
+
+
+
+/* footer session */
+
+.footer{
+    background-color: #161619;
+    height: 20vh;
+    padding-top:20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer p{
+    font-size: 1em;
+    padding: 20px;
+}
+
+
+@media (max-width:900px){
+    .textContainer{
+        position: absolute;
+        left:10%;
+        top:0
+    }
+    
+    .textContainer p{
+    font-size:30px;
+    text-transform: capitalize;
+    }
+    
+    .textContainer span{
+        font-size: 15px;
+    }
+    
+    .textContainer h1{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .blackBox{
+       height: 20vh;
+       padding-top:10px;
+    }
+    
+    .blackBox p{
+        font-size: 2em;
+    }
+    
+    
+    .big_text{
+        font-size: 2em;
+    }
+
+    .session_two{
+        flex-direction: column;
+    }
+}

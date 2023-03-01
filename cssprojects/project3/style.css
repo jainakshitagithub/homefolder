@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.pic1{
+    background-image: url("images/pic1.jpg");
+    min-height: 100vh;
+}
+
+.pic1 , .pic2 , .pic3{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pic2{
+    background-image: url("images/pic2.jpg");
+    min-height: 70vh;
+
+}
+.pic3{
+    background-image: url("images/pic3.jpg");
+    min-height: 70vh;
+
+}
+
+.pic1Text{
+    font-family: 'Lato', sans-serif;
+    font-size:30px;
+    font-weight: 100;
+    min-width:350px;
+    padding:5px 20px;
+    background-color: rgb(89, 85, 85);
+    color: #E5E5E5;
+    position: absolute;
+    top:50%;
+    left:35%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    border-radius: 4px;
+
+}
+
+.section-one {
+    text-align: center;
+    color: #E5E5E5;
+    padding:10px 40px;
+
+}
+
+h2{
+    padding:10px;
+}
+p{
+    padding-bottom: 20px;
+}
+
+.pic2Text , .pic3Text{
+    font-family: 'Lato', sans-serif;
+    font-size:30px;
+    font-weight: 100;
+    min-width:350px;
+    padding:5px 20px;
+    background-color: rgb(89, 85, 85);
+    color: #E5E5E5;
+    position: absolute;
+    top:50%;
+    left:35%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.section-two , .section-three {
+    text-align: center;
+    color: #E5E5E5;
+    background-color: rgb(42, 41, 41);
+    padding:10px 40px;
+}
+
+
+

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap');
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: #E5E5E5;
+    min-height:100vh;
+    border:10px solid hsl(240, 55%, 18%);
+}
+
+.content{
+    width:900px;
+    margin:0 auto;
+}
+
+
+/*---------- Top section ------------*/
+
+.top-section{
+    margin-top:50px;
+    display : flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.top-section h1{
+    font-size:40px;
+    font-weight: bold;
+    color: #1D1E4C;
+    text-align:center;
+    text-transform: uppercase;
+}
+.top-section h4{
+    font-size: 30px;
+    text-align: end;
+}
+
+.image-container img{
+    border-radius:50%;
+    overflow: hidden;
+}
+
+/* -------------About section---------------- */
+.about-section{
+    margin-top:50px;
+}
+
+.about-section h2{
+    font-size: 50px;
+    font-weight:bold;
+    text-transform: capitalize;
+    margin-bottom:20px;
+}
+
+.about-section p{
+    font-weight: 100;
+    line-height: 2;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.about-section h4{
+    margin:40px 0 20px 0;
+}
+
+.about-section ul{
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+/*---------Footer section------------- */
+
+.footer-section{
+    margin-top: 50px;
+    margin-bottom:30px;
+    text-align: end;
+    font-weight: 200;
+}
+
